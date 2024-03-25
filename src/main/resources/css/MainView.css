@@ -1,0 +1,12 @@
+
+#btnClose:hover {
+    -fx-background-color: red;
+}
+
+#btnMaximize:hover{
+    -fx-background-color: gray;
+}
+
+#btnMinimize:hover{
+    -fx-background-color: gray;
+}
