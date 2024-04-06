@@ -73,7 +73,6 @@ public class MainViewController {
                 }
             }
         }
-
     }
 
     public void mnuSaveAsOnAction(ActionEvent actionEvent) throws IOException {
@@ -106,7 +105,6 @@ public class MainViewController {
         fileChooser.setTitle("Open a text file");
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Plain Text Files (*.txt)", "*.txt"));
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("All Files(*.*)", "*.*"));
-        File file = fileChooser.showOpenDialog(txtArea.getScene().getWindow());
         fileChooser.setInitialDirectory(new File(System.getenv("HOME"), "Downloads"));
         currentFile = fileChooser.showOpenDialog(txtArea.getScene().getWindow());
 
