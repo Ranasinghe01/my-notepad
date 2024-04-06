@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,9 +22,10 @@ public class AppInitializer extends Application {
         AnchorPane controller = FXMLLoader.load(resource);
         Scene mainScene = new Scene(controller);
         primaryStage.setScene(mainScene);
-        primaryStage.setTitle("Notepad");
+        primaryStage.setTitle("Untitled Document - Notepad");
         primaryStage.centerOnScreen();
         primaryStage.show();
+
 
     }
 }
